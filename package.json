@@ -1,0 +1,52 @@
+{
+  "name": "gulp-new-build",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "config": {
+    "src": {
+      "scss": "app/scss"
+    },
+    "dist": {
+      "css": "dist/css"
+    }
+  },
+  "author": "alex",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-image": "^4.3.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp.spritesmith": "^6.9.0",
+    "imagemin-pngquant": "^6.0.0",
+    "require-dir": "^1.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "jpegtran-bin": "^3.2.0",
+    "optipng-bin": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexweb230/gulp-new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexweb230/gulp-new/issues"
+  },
+  "homepage": "https://github.com/alexweb230/gulp-new#readme"
+}

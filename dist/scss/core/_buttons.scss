@@ -1,0 +1,11 @@
+.but{
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+  &.btn-search{
+    @include sprite($search);
+  }
+  &.btn-cart{
+    @include sprite($cart);
+  }
+}

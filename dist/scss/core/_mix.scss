@@ -1,0 +1,61 @@
+@mixin breakpoint ($point) {
+  @media (max-width: 1px * $point) {
+    @content;
+  }
+}
+
+@mixin breakpoint_min ($point) {
+  @media (min-width: 1px * $point) {
+    @content;
+  }
+}
+
+@mixin placeholder () {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &::-moz-placeholder          {
+    @content;
+  }/* Firefox 19+ */
+  &:-moz-placeholder           {
+    @content;
+  }/* Firefox 18- */
+  &:-ms-input-placeholder      {
+    @content;
+  }
+}
+
+@mixin liner-gradient($deg, $color, $color-2...){
+  background:linear-gradient($deg, $color, $color-2);
+}
+
+@function rem($rem, $context: $font) {
+  @if (unitless($rem)) {
+    $rem: $rem * 1px;
+  }
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+  @return $rem / $context * 1rem;
+}
+
+
+//@function rem($pxsize) {
+//  @return ($pxsize/14)+rem;
+//}
+
+@for $i from 0 through 30{
+  .m-bot-#{$i} {
+    margin-bottom: $i + 0px !important;
+  }
+}
+@for $i from 0 through 60{
+  .m-top-#{$i} {
+    margin-top: $i + 0px !important;
+  }
+}
+@for $i from 0 through 20{
+  .p-bot-#{$i} {
+    padding-bottom: $i + 0px !important;
+  }
+}
