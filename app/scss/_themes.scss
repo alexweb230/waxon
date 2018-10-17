@@ -14,10 +14,13 @@
   width: 270px;
   text-align: center;
   position: relative;
+  padding-top: 73px;
   &:before{
     content: "";
-    display: inline-block;
-    margin-bottom: 20px;
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left: -20px;
   }
   &.pen{
     &:before{
@@ -50,5 +53,30 @@
     color: #8c8c8c;
     font-weight: $light;
     margin-top: 11px;
+  }
+  &:hover{
+    .tool-link{
+      color: #c7b299;
+    }
+    &.pen{
+      &:before{
+        @include sprite($pen-hov);
+      }
+    }
+    &.set{
+      &:before{
+        @include sprite($set-hov);
+      }
+    }
+    &.case{
+      &:before{
+        @include sprite($case-hov);
+      }
+    }
+    &.lay{
+      &:before{
+        @include sprite($lay-hov);
+      }
+    }
   }
 }
