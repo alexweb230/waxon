@@ -15,12 +15,22 @@
   text-align: center;
   position: relative;
   padding-top: 73px;
+  padding-bottom: 12px;
   &:before{
     content: "";
     position: absolute;
     top:0;
     left:50%;
     margin-left: -20px;
+  }
+  &:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    right: 100px;
+    height: 3px;
+    background-color: #f1eee9;
   }
   &.pen{
     &:before{
@@ -55,6 +65,9 @@
     margin-top: 11px;
   }
   &:hover{
+    &:after{
+      background-color: #c7b299;
+    }
     .tool-link{
       color: #c7b299;
     }
