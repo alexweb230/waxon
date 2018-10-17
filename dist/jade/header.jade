@@ -4,22 +4,9 @@ header
         a.logo(href="/")= title
         nav
             ul
-                li
-                    a(href="#") Home
-                li
-                    a(href="#") About Us
-                li
-                    a(href="#") Portfolio
-                li
-                    a(href="#") Features
-                li
-                    a(href="#") Blog
-                li
-                    a(href="#") Pricing
-                li
-                    a(href="#") Shortcodes
-                li
-                    a(href="#") Contact
+             for val in ['Home', 'About Us', 'Portfolio', 'Features','Blog','Pricing','Shortcodes','Contact']
+                 li
+                   a(href="#")= val
         .buttons-box
             button.but.btn-cart
             button.but.btn-search
