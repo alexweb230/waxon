@@ -9,6 +9,12 @@
   color: $w;
   margin: 0;
 }
+.h2{
+  font-size: rem(30);
+  color: #555555;
+  font-weight: $sem-bold;
+  margin: 0;
+}
 
 .tool-item{
   width: 270px;
@@ -91,5 +97,13 @@
         @include sprite($lay-hov);
       }
     }
+  }
+}
+
+.section{
+  background-color: #f5f2ee;
+  padding-top: 90px;
+  .h2{
+    text-align: center;
   }
 }
