@@ -7,13 +7,15 @@
 .h2-large{
   font-size: rem(52);
   color: $w;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .h2{
   font-size: rem(30);
   color: #555555;
   font-weight: $sem-bold;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .tool-item{
@@ -100,10 +102,3 @@
   }
 }
 
-.section{
-  background-color: #f5f2ee;
-  padding-top: 90px;
-  .h2{
-    text-align: center;
-  }
-}

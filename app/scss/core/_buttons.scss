@@ -8,4 +8,18 @@
   &.btn-cart{
     @include sprite($cart);
   }
+  &.btn-push{
+    height: 50px;
+    border-radius: 3px;
+    background-color: #988574;
+    color: $w;
+    font-family: $font-title;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: rem(14);
+    font-weight: $ex-bold;
+    line-height: 52px;
+    padding: 0 28px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0, 0.5);
+  }
 }

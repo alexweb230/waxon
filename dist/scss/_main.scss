@@ -4,3 +4,46 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.section{
+  background-color: #f5f2ee;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  .h2{
+    text-align: center;
+  }
+  .text{
+    font-size: rem(16);
+    color: #8c8c8c;
+    line-height: 28px;
+    max-width: 720px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: $light;
+    padding-top: 14px;
+  }
+  .bottom-box{
+    background-color:#3E2D27;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .bottom-box-inner{
+      display: flex;
+      justify-content: space-between;
+      .left{
+        .link{
+          font-size: rem(28);
+          color: $w;
+          font-family:$font-title;
+          span{
+            color: #c7b299;
+          }
+        }
+        .bot-text{
+          font-size: rem(18);
+          color:#615855;
+          display: block;
+          padding-top: 9px;
+        }
+      }
+    }
+  }
+}
