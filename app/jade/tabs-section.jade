@@ -5,5 +5,12 @@
     .tabs-section.content
         ul.tabs-group
             for link in ['All', 'Web Design', 'Mobile App', 'llustration', 'Photography']
-                li.tabs-item.active
+                li.tabs-item
                     a(href="#")=link
+        .tabs-content
+            .tabs-content-item
+                a(href="#").img
+                    img(src="" alt="")
+                .caption
+                    a(href="#").descr-link
+                    span.descr-text
