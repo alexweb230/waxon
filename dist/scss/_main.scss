@@ -21,6 +21,24 @@
     font-weight: $light;
     padding-top: 14px;
   }
+  .center-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 82px;
+    position: relative;
+    margin-top: 32px;
+    img{
+      width: 50%;
+      &.img-layer{
+        position: absolute;
+        top: 0;
+        max-width: 770px;
+        left: 50%;
+        margin-left: -385px;
+        width: 100%;
+      }
+    }
+  }
   .bottom-box{
     background-color:#3E2D27;
     padding-top: 50px;
