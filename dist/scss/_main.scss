@@ -66,3 +66,35 @@
     }
   }
 }
+.tabs-section{
+  padding-top: 32px;
+  .tabs-group{
+    display: flex;
+    justify-content: center;
+    .tabs-item{
+      &:not(:nth-last-child(1)){
+        margin-right: 10px;
+      }
+      &.active{
+        a{
+          color: $w;
+          background-color: #998575;
+        }
+      }
+      a{
+        border: 1px solid #dcd8d8;
+        border-radius: 3px;
+        height: 32px;
+        line-height: 29px;
+        font-weight: $light;
+        display: inline-block;
+        color: $col;
+        padding: 0 21px;
+        &:hover{
+          color: $w;
+          background-color: #998575;
+        }
+      }
+    }
+  }
+}
