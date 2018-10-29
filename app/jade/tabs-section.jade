@@ -8,9 +8,18 @@
                 li.tabs-item
                     a(href="#")=link
         .tabs-content
-            .tabs-content-item
-                a(href="#").img
-                    img(src="" alt="")
-                .caption
-                    a(href="#").descr-link
-                    span.descr-text
+            for img in ['/img/tmp/1.jpg', '/img/tmp/2.jpg', '/img/tmp/3.jpg']
+                .tabs-content-item
+                    a(href="#").img
+                        img(src=img alt="")
+                    .caption
+                        a(href="#").descr-link Claritas Etiam Processus
+                        span.descr-text Photography, Nature
+        .tabs-content
+            for img in ['/img/tmp/1.jpg', '/img/tmp/2.jpg', '/img/tmp/3.jpg']
+                .tabs-content-item
+                    a(href="#").img
+                        img(src=img alt="")
+                    .caption
+                        a(href="#").descr-link Claritas Etiam Processus
+                        span.descr-text Photography, Nature
