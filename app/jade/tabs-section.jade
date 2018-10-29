@@ -8,6 +8,22 @@
                 li.tabs-item
                     a(href="#")=link
         .tabs-content
+            for img in ['/img/tmp/1.jpg', '/img/tmp/2.jpg', '/img/tmp/3.jpg', '/img/tmp/4.jpg', '/img/tmp/5.jpg', '/img/tmp/6.jpg']
+                .tabs-content-item
+                    a(href="#").img
+                        img(src=img alt="")
+                    .caption
+                        a(href="#").descr-link Claritas Etiam Processus
+                        span.descr-text Photography, Nature
+        .tabs-content.hidden
+            for img in ['/img/tmp/1.jpg', '/img/tmp/2.jpg', '/img/tmp/3.jpg', '/img/tmp/4.jpg']
+                .tabs-content-item
+                    a(href="#").img
+                        img(src=img alt="")
+                    .caption
+                        a(href="#").descr-link Claritas Etiam Processus
+                        span.descr-text Photography, Nature
+        .tabs-content.hidden
             for img in ['/img/tmp/1.jpg', '/img/tmp/2.jpg', '/img/tmp/3.jpg']
                 .tabs-content-item
                     a(href="#").img
@@ -15,8 +31,16 @@
                     .caption
                         a(href="#").descr-link Claritas Etiam Processus
                         span.descr-text Photography, Nature
-        .tabs-content
+        .tabs-content.hidden
             for img in ['/img/tmp/1.jpg', '/img/tmp/2.jpg', '/img/tmp/3.jpg']
+                .tabs-content-item
+                    a(href="#").img
+                        img(src=img alt="")
+                    .caption
+                        a(href="#").descr-link Claritas Etiam Processus
+                        span.descr-text Photography, Nature
+        .tabs-content.hidden
+            for img in ['/img/tmp/1.jpg', '/img/tmp/2.jpg', '/img/tmp/3.jpg', '/img/tmp/4.jpg', '/img/tmp/5.jpg']
                 .tabs-content-item
                     a(href="#").img
                         img(src=img alt="")
