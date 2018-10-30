@@ -10,9 +10,11 @@
 
 //extention
 @import "extention/slick";
+@import "extention/video-js.min";
 
 //modules
 @import "modules/header";
+@import "modules/video-section";
 //main
 @import "themes";
 @import "main";
