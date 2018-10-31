@@ -144,6 +144,7 @@
   .devise-box{
     width: 660px;
     margin-top: 110px;
+    padding-right: 10px;
     .h3{
       margin-top: 0;
     }
@@ -174,5 +175,9 @@
         }
       }
     }
+  }
+  .img-box{
+    padding-left: 50px;
+    display: block;
   }
 }
