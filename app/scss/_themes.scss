@@ -17,7 +17,12 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-
+.h3{
+  font-size: rem(30);
+  color: #555555;
+  font-family: $font-title;
+  font-weight: $sem-bold;
+}
 .tool-item{
   width: 270px;
   text-align: center;

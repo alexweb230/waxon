@@ -137,3 +137,33 @@
     }
   }
 }
+.devise{
+  .devise-box{
+    max-width: 660px;
+    float: right;
+    p{
+      line-height: 28px;
+      font-size: rem(16);
+    }
+    .devise-list{
+      padding-left: 50px;
+      .devise-list-item{
+        margin-bottom: 12px;
+        a{
+          color: $col;
+          font-size: rem(16);
+          display: block;
+          position: relative;
+          padding-left: 49px;
+          &:before{
+            content: "";
+            position: absolute;
+            left:0;
+            top:0;
+            @include sprite($arr-list);
+          }
+        }
+      }
+    }
+  }
+}
