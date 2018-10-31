@@ -138,17 +138,25 @@
   }
 }
 .devise{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
   .devise-box{
-    max-width: 660px;
-    float: right;
+    width: 660px;
+    margin-top: 110px;
+    .h3{
+      margin-top: 0;
+    }
     p{
       line-height: 28px;
       font-size: rem(16);
     }
     .devise-list{
       padding-left: 50px;
+      padding-top: 11px;
       .devise-list-item{
-        margin-bottom: 12px;
+        margin-bottom: 9px;
+        line-height: 23px;
         a{
           color: $col;
           font-size: rem(16);
@@ -159,7 +167,8 @@
             content: "";
             position: absolute;
             left:0;
-            top:0;
+            top:50%;
+            margin-top: -10px;
             @include sprite($arr-list);
           }
         }
