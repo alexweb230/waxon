@@ -181,3 +181,86 @@
     display: block;
   }
 }
+
+.counters{
+  background: linear-gradient(90deg, #211b19 0%, #4e3326 100%);
+  padding-top: 35px;
+  padding-bottom: 62px;
+  .counter-box{
+    display: flex;
+    justify-content: space-between;
+    &-item{
+      position: relative;
+      width: 25%;
+      text-align: center;
+      padding-top: 60px;
+      padding-bottom: 25px;
+      margin-top: 30px;
+      &:before{
+        content: "";
+        position: absolute;
+        top:0;
+        left: 50%;
+        margin-left: -25px;
+      }
+      &:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 2px;
+        background-color: #fff;
+        width:35px;
+        left:50%;
+        margin-left: -17.5px;
+
+      }
+      &.cl{
+        &:before{
+          @include sprite($coun-1);
+        }
+      }
+      &.cup{
+        &:before{
+          @include sprite($coun-2);
+        }
+      }
+      &.bl{
+        &:before{
+          @include sprite($coun-3);
+        }
+      }
+      &.hr{
+        &:before{
+          @include sprite($coun-4);
+        }
+      }
+      &.lch{
+        &:before{
+          @include sprite($coun-5);
+        }
+      }
+      .counter{
+        display: block;
+        font-size: rem(48);
+        color:$w;
+        font-weight:$light;
+        margin-bottom: 5px;
+      }
+      .counter-name{
+        display: block;
+        color: $cr;
+        text-transform: uppercase;
+
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
