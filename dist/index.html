@@ -154,7 +154,22 @@
       </div>
     </div><a href="#" class="but btn-push center"> Load More</a>
   </div>
-  <!--include video-section-->
+  <div class="main-box video-box">
+    <div class="video">
+      <video onclick="PlayPauseVideo()" id="video">
+        <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+        <source src="http://clips.vorwaerts-gmbh.de/VfE.webm" type="video/webm">
+        <source src="http://clips.vorwaerts-gmbh.de/VfE.ogv" type="video/ogg">
+      </video>
+      <div class="video-controls">
+        <button onclick="PlayPauseVideo()" class="push">video</button>
+        <div class="tools-bar">
+          <button onclick="fullScreen()" class="full-screen">full</button>
+          <input type="range" id="ratio">
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="main-box">
     <div class="content devise"><span class="img-box"><img src="/img/tmp/dev.jpg" alt=""></span>
       <div class="devise-box">

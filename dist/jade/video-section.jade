@@ -1,5 +1,11 @@
 .main-box.video-box
-    video(controls)
-        source(src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4")
-        source(src="http://clips.vorwaerts-gmbh.de/VfE.webm" type="video/webm")
-        source(src="http://clips.vorwaerts-gmbh.de/VfE.ogv" type="video/ogg")
+   .video
+        video(onclick="PlayPauseVideo()")#video
+            source(src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4")
+            source(src="http://clips.vorwaerts-gmbh.de/VfE.webm" type="video/webm")
+            source(src="http://clips.vorwaerts-gmbh.de/VfE.ogv" type="video/ogg")
+        .video-controls
+            button(onclick="PlayPauseVideo()").push video
+            .tools-bar
+                button(onclick="fullScreen()").full-screen full
+                input(type="range")#ratio
