@@ -102,39 +102,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    &-item{
-      width: 374px;
-      margin-bottom: 30px;
-      .img{
-        height: 280px;
-        overflow: hidden;
-        display: block;
-        img{
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-      .caption{
-        background-color: #ecebe7;
-        padding-top: 26px;
-        padding-left: 30px;
-        padding-bottom: 19px;
-        padding-right: 10px;
-        .descr-link{
-          display: block;
-          color: $cr;
-          font-size: rem(20);
-          font-family: $font-title;
-          font-weight: $middle;
-        }
-        .descr-text{
-          color: #d1d1d1;
-          font-size: rem(14);
-          font-weight: $light;
-        }
-      }
-    }
   }
 }
 .devise{
