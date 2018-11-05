@@ -5,6 +5,15 @@ $(function () {
         dots: true
     });
 
+    $('.slider-box-posts').slick({
+        prevArrow: '<button type="button" class="but slick-prev"></button>',
+        nextArrow: '<button type="button" class="but slick-next"></button>',
+        dots: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+
     //tabs-block-filter
     $('.tabs-item').first().addClass('active');
     $('.tabs-group').on('click', '.tabs-item:not(.active)', function (e) {

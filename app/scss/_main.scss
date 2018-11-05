@@ -222,7 +222,17 @@
     }
   }
 }
+.slider-box-posts{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  .slider-post-item{
 
+  }
+  .slick-arrow{
+    @include sprite($arr-r);
+  }
+}
 
 
 

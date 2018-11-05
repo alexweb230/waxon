@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7f3cc1-721f-4f2e-8223-5688e0301f3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/jade/post-slider.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/jade/post-slider.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/post-slider.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png/icons/arr-l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png/icons/arr-r.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/app/img/sprite/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/dist/img/sprite/sprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/jade/index.jade" afterPath="$PROJECT_DIR$/app/jade/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite/_sprite.scss" afterPath="$PROJECT_DIR$/app/img/sprite/_sprite.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/jade/post-slider.jade" afterPath="$PROJECT_DIR$/app/jade/post-slider.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/main.js" afterPath="$PROJECT_DIR$/app/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_main.scss" afterPath="$PROJECT_DIR$/app/scss/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_themes.scss" afterPath="$PROJECT_DIR$/app/scss/_themes.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/common.css" afterPath="$PROJECT_DIR$/dist/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sprite/_sprite.scss" afterPath="$PROJECT_DIR$/dist/img/sprite/_sprite.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jade/index.jade" afterPath="$PROJECT_DIR$/dist/jade/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jade/post-slider.jade" afterPath="$PROJECT_DIR$/dist/jade/post-slider.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="$PROJECT_DIR$/dist/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/post-slider.html" afterPath="$PROJECT_DIR$/dist/post-slider.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/_main.scss" afterPath="$PROJECT_DIR$/dist/scss/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/_themes.scss" afterPath="$PROJECT_DIR$/dist/scss/_themes.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51345414">
+    <splitter split-orientation="horizontal" split-proportion="0.49306014">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="video-section.jade" pinned="false" current-in-tab="false">
@@ -41,8 +43,8 @@
           <file leaf-file-name="post-slider.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/jade/post-slider.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <state relative-caret-position="288">
+                  <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
@@ -51,8 +53,8 @@
           <file leaf-file-name="tabs-section.jade" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/jade/tabs-section.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-18">
-                  <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="34" />
+                <state relative-caret-position="72">
+                  <caret line="16" column="59" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="16" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
@@ -62,21 +64,31 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/scss/_main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="100" column="2" lean-forward="false" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="15" />
+                <state relative-caret-position="524">
+                  <caret line="232" column="28" lean-forward="false" selection-start-line="232" selection-start-column="28" selection-end-line="232" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_themes.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_sprite.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/img/sprite/_sprite.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-135">
+                  <caret line="313" column="26" lean-forward="false" selection-start-line="313" selection-start-column="25" selection-end-line="313" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_themes.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/scss/_themes.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="146">
-                  <caret line="120" column="21" lean-forward="false" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+                <state relative-caret-position="398">
+                  <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -95,10 +107,10 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+                <state relative-caret-position="252">
+                  <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
                   <folding>
-                    <marker date="1541412319628" expanded="true" signature="825:1511" ph="..." />
+                    <marker date="1541416084336" expanded="true" signature="1119:1805" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -122,6 +134,7 @@
       <find>block-selects</find>
       <find>.tabs-content-item</find>
       <find>tabs-content-item</find>
+      <find>mob-slider info</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,15 +165,15 @@
         <option value="$PROJECT_DIR$/app/jade/section-devise.jade" />
         <option value="$PROJECT_DIR$/dist/jade/section-counter.jade" />
         <option value="$PROJECT_DIR$/dist/jade/counter-section.jade" />
-        <option value="$PROJECT_DIR$/app/img/sprite/_sprite.scss" />
         <option value="$PROJECT_DIR$/app/jade/counter-section.jade" />
         <option value="$PROJECT_DIR$/app/jade/video-section.jade" />
-        <option value="$PROJECT_DIR$/app/js/main.js" />
         <option value="$PROJECT_DIR$/app/jade/index.jade" />
         <option value="$PROJECT_DIR$/dist/tabs-section.html" />
-        <option value="$PROJECT_DIR$/app/jade/post-slider.jade" />
-        <option value="$PROJECT_DIR$/app/scss/_main.scss" />
         <option value="$PROJECT_DIR$/app/scss/_themes.scss" />
+        <option value="$PROJECT_DIR$/app/js/main.js" />
+        <option value="$PROJECT_DIR$/app/jade/post-slider.jade" />
+        <option value="$PROJECT_DIR$/app/img/sprite/_sprite.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_main.scss" />
       </list>
     </option>
   </component>
@@ -233,6 +246,28 @@
               <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
               <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="png" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="png" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="icons" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sprite" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="jade" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -251,6 +286,19 @@
               <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
               <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="png" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -310,7 +358,7 @@
       <workItem from="1540190519012" duration="21512000" />
       <workItem from="1540796572744" duration="9886000" />
       <workItem from="1540900387205" duration="23459000" />
-      <workItem from="1541406428571" duration="6960000" />
+      <workItem from="1541406428571" duration="10142000" />
     </task>
     <task id="LOCAL-00001" summary="tools">
       <created>1539761007302</created>
@@ -452,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541411748232</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="tabs">
+      <created>1541413676133</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1541413676133</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101019000" />
+    <option name="totallyTimeSpent" value="104201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1973" y="-4" width="1867" height="1084" extended-state="6" />
@@ -499,13 +554,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulp/image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/tmp/4f7319e9fac8b5c83e19e848784bad08.jpg" />
     <entry file="file://$PROJECT_DIR$/app/img/tmp/1.jpg" />
     <entry file="file://$PROJECT_DIR$/dist/img/tmp/4f7319e9fac8b5c83e19e848784bad08.jpg">
@@ -719,14 +767,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/jade/section-counter.jade" />
-    <entry file="file://$PROJECT_DIR$/app/img/sprite/_sprite.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="277" column="55" lean-forward="false" selection-start-line="277" selection-start-column="55" selection-end-line="277" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/jade/counter-section.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -775,24 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jade/tabs-section.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <marker date="1541412319628" expanded="true" signature="825:1511" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/modules/_video-section.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -801,26 +823,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_main.scss">
+    <entry file="file://$PROJECT_DIR$/app/scss/_themes.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="100" column="2" lean-forward="false" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="15" />
+        <state relative-caret-position="398">
+          <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_themes.scss">
+    <entry file="file://$PROJECT_DIR$/app/jade/tabs-section.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="120" column="21" lean-forward="false" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+        <state relative-caret-position="72">
+          <caret line="16" column="59" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="16" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/post-slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/jade/post-slider.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/sprite/_sprite.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="313" column="26" lean-forward="false" selection-start-line="313" selection-start-column="25" selection-end-line="313" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <marker date="1541416084336" expanded="true" signature="1119:1805" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="232" column="28" lean-forward="false" selection-start-line="232" selection-start-column="28" selection-end-line="232" selection-end-column="28" />
           <folding />
         </state>
       </provider>

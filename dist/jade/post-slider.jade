@@ -5,3 +5,10 @@
         h2.h2 Recent Posts.
         p.text=txt
     .slider-box-posts.content
+        for img in ['/img/tmp/1.jpg', '/img/tmp/2.jpg', '/img/tmp/3.jpg','/img/tmp/1.jpg', '/img/tmp/2.jpg', '/img/tmp/3.jpg']
+            .tabs-content-item.slider-post-item
+                a(href="#").img
+                    img(src=img alt="")
+                .caption
+                    a(href="#").descr-link Claritas Etiam Processus
+                    span.descr-text Photography, Nature
