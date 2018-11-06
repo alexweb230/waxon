@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7f3cc1-721f-4f2e-8223-5688e0301f3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/png/icons/arr-l.png" afterPath="$PROJECT_DIR$/app/img/png/icons/arr-l.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/png/icons/arr-r.png" afterPath="$PROJECT_DIR$/app/img/png/icons/arr-r.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/app/img/sprite/sprite.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/dist/img/sprite/sprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/jade/post-slider.jade" afterPath="$PROJECT_DIR$/app/jade/post-slider.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/jade/video-section.jade" afterPath="$PROJECT_DIR$/app/jade/video-section.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/main.js" afterPath="$PROJECT_DIR$/app/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_main.scss" afterPath="$PROJECT_DIR$/app/scss/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/common.css" afterPath="$PROJECT_DIR$/dist/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jade/post-slider.jade" afterPath="$PROJECT_DIR$/dist/jade/post-slider.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jade/video-section.jade" afterPath="$PROJECT_DIR$/dist/jade/video-section.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="$PROJECT_DIR$/dist/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/post-slider.html" afterPath="$PROJECT_DIR$/dist/post-slider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/_main.scss" afterPath="$PROJECT_DIR$/dist/scss/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/video-section.html" afterPath="$PROJECT_DIR$/dist/video-section.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -339,7 +323,7 @@
       <workItem from="1540190519012" duration="21512000" />
       <workItem from="1540796572744" duration="9886000" />
       <workItem from="1540900387205" duration="23459000" />
-      <workItem from="1541406428571" duration="20334000" />
+      <workItem from="1541406428571" duration="20578000" />
     </task>
     <task id="LOCAL-00001" summary="tools">
       <created>1539761007302</created>
@@ -495,11 +479,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541418800737</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="tabs">
+      <created>1541505029046</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1541505029046</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114393000" />
+    <option name="totallyTimeSpent" value="114637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1973" y="-4" width="1867" height="1084" extended-state="6" />
