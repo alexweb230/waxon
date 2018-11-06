@@ -11,7 +11,9 @@ $(function () {
         dots: false,
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        appendArrows: $('.buttons-arr-slick')
+
     });
 
     //tabs-block-filter
@@ -69,11 +71,24 @@ $(function () {
 //
 // function initDuration() {
 //     dur.value = video.currentTime;
+//
 // }
-
-
-
-
+//
+// function claerAnimateRange() {
+//     clearInterval(startDuration);
+//
+//     if(video.paused){
+//
+//     }
+//     else {
+//         PlayPauseVideo();
+//     }
+// }
+//
+// function movedRang() {
+//     video.currentTime = dur.value;
+//     PlayPauseVideo();
+// }
 
 
 

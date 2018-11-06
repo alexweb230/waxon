@@ -8,4 +8,7 @@
             button(onclick="PlayPauseVideo()").push video
             .tools-bar
                 button(onclick="fullScreen()").full-screen full
-                input(type="range")#ratio
+                input(
+                    type="range"
+                    onmousedown="claerAnimateRange()"
+                    onmouseup="movedRang()")#ratio
