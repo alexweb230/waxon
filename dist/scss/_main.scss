@@ -244,9 +244,12 @@
   }
   .buttons-arr-slick {
     position: relative;
+    text-align: center;
     .slick-arrow {
       @include sprite($arr-r);
-      position: absolute;
+      &.slick-prev{
+        transform: rotate(190deg);
+      }
     }
   }
 }
