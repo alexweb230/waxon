@@ -35,11 +35,29 @@ $(function () {
             e.preventDefault();
         }
     });
+
+
+    //video
+    let video = document.querySelector('.video'),
+        filled = document.querySelector('.filled'),
+        playPase = document.querySelector('.play-pase');
+
+    playPase.addEventListener('click', function () {
+        if(video.paused){
+            this.classList.add('active');
+            video.play();
+        } else {
+            this.classList.remove('active');
+            video.pause();
+        }
+    });
+
+    video.addEventListener('timeupdate', function () {
+        let filledPos = video.currentTime / video.duration;
+        filled.style.width = filledPos * 100 + '%';
+    });
+
 });
-
-
-
-
 
 
 
