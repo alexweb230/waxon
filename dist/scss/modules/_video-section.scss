@@ -12,10 +12,13 @@
     padding-bottom: 15px;
     transform: translateY(100%) translateY(-10px);
     transition: 0.3s;
-    .paly-pase {
+    .play-pase {
       @include sprite($play);
       margin-left: 30px;
       margin-top: 15px;
+      &.active{
+        @include sprite($pause);
+      }
     }
     .bar {
       top: 0;
