@@ -37,58 +37,6 @@ $(function () {
     });
 });
 
-// let video;
-// let dur;
-// let startDuration;
-// window.onload = function () {
-//
-//     //video
-//     video = document.getElementById('video');
-//     dur = document.getElementById('ratio');
-//     dur.value = 0;
-//     dur.min = 0;
-//     dur.max = video.duration;
-//
-//
-// }
-//
-//
-// function PlayPauseVideo() {
-//     if (video.paused) {
-//         video.play();
-//         startDuration = setInterval(initDuration, 1000/66);
-//     }
-//     else {
-//         video.pause();
-//         clearInterval(startDuration);
-//     }
-// }
-//
-// function fullScreen() {
-//     video.webkitRequestFullScreen();
-// }
-//
-//
-// function initDuration() {
-//     dur.value = video.currentTime;
-//
-// }
-//
-// function claerAnimateRange() {
-//     clearInterval(startDuration);
-//
-//     if(video.paused){
-//
-//     }
-//     else {
-//         PlayPauseVideo();
-//     }
-// }
-//
-// function movedRang() {
-//     video.currentTime = dur.value;
-//     PlayPauseVideo();
-// }
 
 
 

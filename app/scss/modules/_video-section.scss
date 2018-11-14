@@ -1,4 +1,30 @@
-.video-box{
-  height: 700px;
-
+.video-box {
+  position: relative;
+  .video {
+    width: 100%;
+  }
+  .controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 15px;
+    .paly-pase {
+      @include sprite($play);
+      margin-left: 30px;
+      margin-top: 15px;
+    }
+    .bar {
+      top: 0;
+      height: 10px;
+      left: 0;
+      width: 100%;
+      background-color: $b;
+      .filled {
+        height: 100%;
+        background-color: red;
+        width: 100px;
+      }
+    }
+  }
 }
