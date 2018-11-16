@@ -227,6 +227,7 @@
 }
 
 .slider-posts {
+  padding-bottom: 50px;
   .slider-box-posts {
     display: flex;
     justify-content: space-between;
@@ -249,13 +250,37 @@
       @include sprite($arr-r);
       &.slick-prev{
         transform: rotate(190deg);
+        margin-right: 10px;
       }
     }
   }
 }
 
-
-
+.partners{
+  min-height: 480px;
+  overflow: hidden;
+  background-image: url('img/tmp/bg-part.jpg');
+  position: relative;
+  display: flex;
+  align-items: center;
+  &:before{
+    content: "";
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .partners-tems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    flex-basis: 100%;
+  }
+}
 
 
 

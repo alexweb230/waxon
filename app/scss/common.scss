@@ -6,15 +6,12 @@
 @import "core/mix";
 @import "core/settings";
 @import "core/buttons";
-
-
 //extention
 @import "extention/slick";
-@import "extention/video-js.min";
-
 //modules
 @import "modules/header";
 @import "modules/video-section";
+@import "modules/footer";
 //main
 @import "themes";
 @import "main";
