@@ -55,6 +55,9 @@ $(function () {
     video.addEventListener('timeupdate', function () {
         let filledPos = video.currentTime / video.duration;
         filled.style.width = filledPos * 100 + '%';
+        if(video.ended){
+            playPase.classList.remove('active');
+        }
     });
 
 });

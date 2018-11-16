@@ -249,6 +249,7 @@
       @include sprite($arr-r);
       &.slick-prev{
         transform: rotate(190deg);
+        margin-right: 10px;
       }
     }
   }
