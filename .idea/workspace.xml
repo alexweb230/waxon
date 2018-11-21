@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7f3cc1-721f-4f2e-8223-5688e0301f3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/common.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/app/img/sprite/sprite.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/dist/img/sprite/sprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/jade/footer.jade" afterPath="$PROJECT_DIR$/app/jade/footer.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_main.scss" afterPath="$PROJECT_DIR$/app/scss/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/core/_buttons.scss" afterPath="$PROJECT_DIR$/app/scss/core/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_themes.scss" afterPath="$PROJECT_DIR$/app/scss/_themes.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_footer.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/common.css" afterPath="$PROJECT_DIR$/dist/css/common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/footer.html" afterPath="$PROJECT_DIR$/dist/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jade/footer.jade" afterPath="$PROJECT_DIR$/dist/jade/footer.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/_main.scss" afterPath="$PROJECT_DIR$/dist/scss/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/core/_buttons.scss" afterPath="$PROJECT_DIR$/dist/scss/core/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/_themes.scss" afterPath="$PROJECT_DIR$/dist/scss/_themes.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/modules/_footer.scss" afterPath="$PROJECT_DIR$/dist/scss/modules/_footer.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +27,18 @@
           <file leaf-file-name="footer.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/jade/footer.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+                <state relative-caret-position="326">
+                  <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_themes.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/scss/_themes.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +51,8 @@
           <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/scss/modules/_footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="31">
-                  <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+                <state relative-caret-position="306">
+                  <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -114,6 +119,7 @@
       <find>mob-slider info</find>
       <find>.btn-start</find>
       <find>.buttons-arr-slick</find>
+      <find>.h3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,7 +146,6 @@
         <option value="$PROJECT_DIR$/dist/jade/counter-section.jade" />
         <option value="$PROJECT_DIR$/app/jade/counter-section.jade" />
         <option value="$PROJECT_DIR$/dist/tabs-section.html" />
-        <option value="$PROJECT_DIR$/app/scss/_themes.scss" />
         <option value="$PROJECT_DIR$/app/jade/post-slider.jade" />
         <option value="$PROJECT_DIR$/gulp/img.js" />
         <option value="$PROJECT_DIR$/app/scss/core/_vars.scss" />
@@ -155,9 +160,10 @@
         <option value="$PROJECT_DIR$/gulp/sass.js" />
         <option value="$PROJECT_DIR$/app/scss/_main.scss" />
         <option value="$PROJECT_DIR$/app/img/sprite/_sprite.scss" />
-        <option value="$PROJECT_DIR$/app/jade/footer.jade" />
         <option value="$PROJECT_DIR$/app/scss/core/_buttons.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_themes.scss" />
         <option value="$PROJECT_DIR$/app/scss/modules/_footer.scss" />
+        <option value="$PROJECT_DIR$/app/jade/footer.jade" />
       </list>
     </option>
   </component>
@@ -331,7 +337,7 @@
       <workItem from="1541406428571" duration="28925000" />
       <workItem from="1542027711076" duration="5648000" />
       <workItem from="1542370248944" duration="5600000" />
-      <workItem from="1542613190686" duration="8486000" />
+      <workItem from="1542613190686" duration="10792000" />
     </task>
     <task id="LOCAL-00001" summary="tools">
       <created>1539761007302</created>
@@ -557,26 +563,34 @@
       <option name="project" value="LOCAL" />
       <updated>1542375163467</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="tabs">
+      <created>1542803306706</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1542803306706</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148595000" />
+    <option name="totallyTimeSpent" value="150901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1973" y="-4" width="1867" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23228996" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4655914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23228996" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -584,7 +598,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -643,13 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_themes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -907,10 +913,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jade/footer.jade">
+    <entry file="file://$PROJECT_DIR$/app/scss/core/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="720">
+          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_themes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -923,18 +937,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/core/_buttons.scss">
+    <entry file="file://$PROJECT_DIR$/app/scss/modules/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/modules/_footer.scss">
+    <entry file="file://$PROJECT_DIR$/app/jade/footer.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="326">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding />
         </state>
       </provider>

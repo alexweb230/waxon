@@ -3,8 +3,13 @@ footer {
   .main-footer {
     padding-top: 78px;
     padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
     .footer-col {
       width: 275px;
+      .h4{
+        margin-bottom: 16px;
+      }
       .f-title {
         position: relative;
         display: block;
@@ -22,6 +27,34 @@ footer {
       p{
         color: #555555;
         line-height: 24px;
+
+      }
+      .list{
+        &-item{
+          border-bottom: 1px solid #252525;
+          padding-bottom: 17px;
+          margin-bottom: 13px;
+          time{
+            color: #363636;
+            font-size: rem(12);
+            display: block;
+            padding-bottom: 3px;
+          }
+          p{
+            margin: 0;
+          }
+          a{
+
+          }
+          &:hover{
+            p{
+              color:$cr;
+            }
+            time{
+              color: $w;
+            }
+          }
+        }
       }
     }
   }

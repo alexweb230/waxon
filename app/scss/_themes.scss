@@ -21,10 +21,14 @@
 }
 
 .h3 {
-  font-size: rem(30);
-  color: #555555;
+  @extend .h2;
   font-family: $font-title;
-  font-weight: $sem-bold;
+}
+
+.h4{
+  @extend .h3;
+  color: $w;
+  font-size: rem(24);
 }
 
 .tool-item {
