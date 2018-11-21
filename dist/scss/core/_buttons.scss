@@ -1,14 +1,14 @@
-.but{
+.but {
   background-color: transparent;
   border: none;
   display: inline-block;
-  &.btn-search{
+  &.btn-search {
     @include sprite($search);
   }
-  &.btn-cart{
+  &.btn-cart {
     @include sprite($cart);
   }
-  &.btn-push{
+  &.btn-push {
     height: 50px;
     border-radius: 3px;
     background-color: #988574;
@@ -20,13 +20,29 @@
     font-weight: $ex-bold;
     line-height: 52px;
     padding: 0 28px;
-    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0, 0.5);
-    &.center{
+    box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.5);
+    &.center {
       margin-right: auto;
       margin-left: auto;
       display: block;
       max-width: 160px;
 
+    }
+  }
+  &.read-more {
+    color: #d1d1d1;
+    font-weight: $bold;
+    position: relative;
+    padding-right: 10px;
+    &:after {
+      content: "\00A0";
+      position: absolute;
+      right: 0;
+      top:6px;
+      clip-path: polygon(100% 54%, 0 0, 0 100%);
+      width: 6px;
+      height: 8px;
+      background-color: #d1d1d1;
     }
   }
 }
