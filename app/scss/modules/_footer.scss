@@ -7,7 +7,7 @@ footer {
     justify-content: space-between;
     .footer-col {
       width: 275px;
-      .h4{
+      .h4 {
         margin-bottom: 16px;
       }
       .f-title {
@@ -16,7 +16,7 @@ footer {
         padding-bottom: 10px;
         color: $w;
         font-family: $font-title;
-        font-size:rem(34);
+        font-size: rem(34);
         &:before {
           content: "";
           @include sprite($logo);
@@ -25,32 +25,43 @@ footer {
         }
       }
       p{
+        @extend a;
+      }
+      a:not(.read-more) {
         color: #555555;
         line-height: 24px;
 
       }
-      .list{
-        &-item{
+      .list {
+        &-item {
           border-bottom: 1px solid #252525;
           padding-bottom: 17px;
           margin-bottom: 13px;
-          time{
+          &:nth-last-child(1) {
+            border: 0;
+          }
+          time {
             color: #363636;
             font-size: rem(12);
             display: block;
             padding-bottom: 3px;
           }
-          p{
+          .time-ago {
+            @extend time;
+            margin-top: 3px;
+            padding-bottom: 0;
+          }
+          p {
             margin: 0;
           }
-          a{
+          a {
 
           }
-          &:hover{
-            p{
-              color:$cr;
+          &:hover {
+            a {
+              color: $cr;
             }
-            time{
+            time {
               color: $w;
             }
           }
@@ -58,5 +69,4 @@ footer {
       }
     }
   }
-
 }
