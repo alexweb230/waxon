@@ -57,6 +57,12 @@ footer {
           a {
 
           }
+          .marked{
+            color:#00bff3;
+          }
+          .marked-2{
+            color:#959595;
+          }
           &:hover {
             a {
               color: $cr;
@@ -67,6 +73,27 @@ footer {
           }
         }
       }
+      .img-block{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        &-el{
+          display: block;
+          width: 133px;
+          height: 98px;
+          overflow: hidden;
+          margin-bottom: 10px;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
     }
+  }
+  .footer-bottom{
+    background-color: #111111;
+    min-height: 110px;
   }
 }

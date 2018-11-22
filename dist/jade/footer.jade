@@ -1,9 +1,15 @@
 -var ftxt = "orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.";
 -var list = "Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima";
 
--var link = "@waxom Cum soluta nobis eleifend option congue nihil imperdiet doming";
+-var link = " Cum soluta nobis eleifend option congue nihil imperdiet doming";
 
--var link_2 = "Mirum est #envato notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum";
+-var link_2 = "notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum";
+
+-var pic_1 = "/img/tmp/f-1.jpg";
+-var pic_2 = "/img/tmp/f-2.jpg";
+-var pic_3 = "/img/tmp/f-3.jpg";
+-var pic_4 = "/img/tmp/f-4.jpg";
+
 
 footer
     .content.main-footer
@@ -27,18 +33,28 @@ footer
             h4.h4 Our Twitter
             ul.list
                 li.list-item
-                    time September 08,2015
-                    a(href="#")=link
+                    a(href="#")
+                        span.marked @waxom
+                        =link
                     span.time-ago 3 mins ago
                 li.list-item.active
                     time September 08,2015
-                    a(href="#")=link_2
+                    a(href="#") Mirum est &nbsp;
+                        span.marked #envato &nbsp;
+                        =link_2
                     span.time-ago 3 mins ago
                 li.list-item
                     time September 08,2015
-                    a(href="#") Soluta nobis option bit.ly/1Hniso7
+                    a(href="#") Soluta nobis option  &nbsp;
+                        span.marked-2 bit.ly/1Hniso7
                     span.time-ago 3 mins ago
 
         .footer-col
             h4.h4 Dribbble Widget
+                .img-block
+                   for img in  [pic_1, pic_2, pic_3, pic_4]
+                        a(href="#").img-block-el
+                            img(src=img  alt="")
 
+    .main-box.footer-bottom
+        .content
