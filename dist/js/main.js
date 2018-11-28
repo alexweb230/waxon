@@ -40,17 +40,21 @@ $(function () {
     //video
     let video = document.querySelector('.video'),
         filled = document.querySelector('.filled'),
-        playPase = document.querySelector('.play-pase');
+        playPase = document.querySelector('.play-pase'),
+        videoBox = document.querySelector('.video-box');
 
     playPase.addEventListener('click', function () {
         if(video.paused){
             this.classList.add('active');
             video.play();
+            videoBox.classList.remove('overlay');
         } else {
             this.classList.remove('active');
             video.pause();
+            videoBox.classList.add('overlay');
         }
     });
+
 
     video.addEventListener('timeupdate', function () {
         let filledPos = video.currentTime / video.duration;

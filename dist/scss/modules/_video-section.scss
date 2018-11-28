@@ -1,6 +1,26 @@
 .video-box {
   position: relative;
   overflow: hidden;
+  &.overlay{
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0,0,0, 0.5);
+      z-index: 2;
+    }
+    &:after{
+      content: "";
+      @extend :before;
+      background: initial;
+      background-image: url("/img/tmp/pos.jpg");
+      z-index: 0;
+    }
+  }
   .video {
     width: 100%;
   }
@@ -12,6 +32,7 @@
     padding-bottom: 15px;
     transform: translateY(100%) translateY(-10px);
     transition: 0.3s;
+    z-index: 100;
     .play-pase {
       @include sprite($play);
       margin-left: 30px;
