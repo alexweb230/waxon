@@ -43,24 +43,29 @@ $(function () {
         playPase = document.querySelector('.play-pase'),
         videoBox = document.querySelector('.video-box');
 
-    playPase.addEventListener('click', function () {
-        if(video.paused){
-            this.classList.add('active');
-            video.play();
-            videoBox.classList.remove('overlay');
-        } else {
-            this.classList.remove('active');
-            video.pause();
-            videoBox.classList.add('overlay');
+
+    videoBox.addEventListener('click', function (e) {
+        let target = e.target;
+        if(target === video ||  target === this || target === playPase){
+            console.log(target);
+            if(video.paused){
+                video.play();
+                playPase.classList.add('active');
+                this.classList.remove('overlay');
+            }
+            else if(video.play){
+                 playPase.classList.remove('active');
+                 video.pause();
+            }
         }
     });
-
 
     video.addEventListener('timeupdate', function () {
         let filledPos = video.currentTime / video.duration;
         filled.style.width = filledPos * 100 + '%';
         if(video.ended){
             playPase.classList.remove('active');
+            videoBox.classList.add('overlay');
         }
     });
 
