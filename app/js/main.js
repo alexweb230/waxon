@@ -40,14 +40,22 @@ $(function () {
     //video
     let video = document.querySelector('.video'),
         filled = document.querySelector('.filled'),
+        progressBar = document.querySelector('.bar'),
         playPase = document.querySelector('.play-pase'),
-        videoBox = document.querySelector('.video-box');
+        fullscreen = document.querySelector('.full-size'),
+        videoBox = document.querySelector('.video-box'),
+        range = document.getElementById('range');
+
+
+        // range.value = 0;
+        // range.min = 0;
+        // range.max = video.duration;
+
 
 
     videoBox.addEventListener('click', function (e) {
         let target = e.target;
         if(target === video ||  target === this || target === playPase){
-            console.log(target);
             if(video.paused){
                 video.play();
                 playPase.classList.add('active');
@@ -58,8 +66,21 @@ $(function () {
                  video.pause();
             }
         }
-    });
+        if(target === fullscreen){
+            /* View in fullscreen */
+            if(video.requestFullscreen){
+                video.requestFullscreen();
+            }else if(video.mozRequestFullScreen){
+                video.mozRequestFullScreen();
+            }else if(video.webkitRequestFullscreen){
+                video.webkitRequestFullscreen();
+            }else if (video.msRequestFullscreen) {
+                video.msRequestFullscreen();
+            }
+        }
 
+    });
+   
     video.addEventListener('timeupdate', function () {
         let filledPos = video.currentTime / video.duration;
         filled.style.width = filledPos * 100 + '%';
@@ -69,6 +90,13 @@ $(function () {
         }
     });
 
+    progressBar.addEventListener('click',  scrub);
+
+    function scrub (e) {
+         const scrubTime = (e.offsetX / progressBar.offsetWidth) * video.duration;
+         video.currentTime = scrubTime;
+        console.log(e);
+    }
 });
 
 

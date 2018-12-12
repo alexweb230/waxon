@@ -33,12 +33,20 @@
     transform: translateY(100%) translateY(-10px);
     transition: 0.3s;
     z-index: 100;
-    .play-pase {
-      @include sprite($play);
-      margin-left: 30px;
-      margin-top: 15px;
-      &.active{
-        @include sprite($pause);
+    &-elements{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      .play-pase {
+        @include sprite($play);
+        margin-left: 30px;
+        margin-top: 15px;
+        &.active{
+          @include sprite($pause);
+        }
+      }
+      .full-size{
+
       }
     }
     .bar {
@@ -51,6 +59,7 @@
         height: 100%;
         background-color: red;
         width: 100px;
+        cursor: col-resize;
       }
     }
   }
