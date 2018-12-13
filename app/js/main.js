@@ -90,12 +90,18 @@ $(function () {
         }
     });
 
+    let mousedown = false;
+
+
+
     progressBar.addEventListener('click',  scrub);
+    progressBar.addEventListener('mousemove', (e) => mousedown && scrub(e));
+    progressBar.addEventListener('mousedown', () => mousedown = true);
+    progressBar.addEventListener('mouseup', () => mousedown = false);
 
     function scrub (e) {
          const scrubTime = (e.offsetX / progressBar.offsetWidth) * video.duration;
          video.currentTime = scrubTime;
-        console.log(e);
     }
 });
 
