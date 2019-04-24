@@ -1,0 +1,19 @@
+@media all and (max-width: 1000px){
+   header{
+     .inner-header{
+       padding-top: 30px;
+       display: block;
+       .logo{
+         position: absolute;
+         left:50%;
+         margin-left: -85px;
+       }
+       nav{
+         display: none;
+       }
+       .buttons-box{
+         float: right;
+       }
+     }
+   }
+}
