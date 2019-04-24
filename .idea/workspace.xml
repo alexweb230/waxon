@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7f3cc1-721f-4f2e-8223-5688e0301f3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png/icons/full-size.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/app/img/sprite/sprite.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/dist/img/sprite/sprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite/_sprite.scss" afterPath="$PROJECT_DIR$/app/img/sprite/_sprite.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/jade/video-section.jade" afterPath="$PROJECT_DIR$/app/jade/video-section.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/core/_buttons.scss" afterPath="$PROJECT_DIR$/app/scss/core/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_video-section.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_video-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/common.css" afterPath="$PROJECT_DIR$/dist/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sprite/_sprite.scss" afterPath="$PROJECT_DIR$/dist/img/sprite/_sprite.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jade/video-section.jade" afterPath="$PROJECT_DIR$/dist/jade/video-section.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/core/_buttons.scss" afterPath="$PROJECT_DIR$/dist/scss/core/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/modules/_video-section.scss" afterPath="$PROJECT_DIR$/dist/scss/modules/_video-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/video-section.html" afterPath="$PROJECT_DIR$/dist/video-section.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +36,8 @@
       <file leaf-file-name="_video-section.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scss/modules/_video-section.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="288">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -224,22 +210,14 @@
               <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="png" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="png" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="icons" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sprite" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waxon" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tmp" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="waxon" type="b2602c69:ProjectViewProjectNode" />
@@ -354,7 +332,7 @@
       <workItem from="1551796295603" duration="652000" />
       <workItem from="1553853252124" duration="1288000" />
       <workItem from="1554792430413" duration="1773000" />
-      <workItem from="1556089629557" duration="7279000" />
+      <workItem from="1556089629557" duration="7401000" />
     </task>
     <task id="LOCAL-00001" summary="tools">
       <created>1539761007302</created>
@@ -671,11 +649,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556113199461</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="footer">
+      <created>1556113964524</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1556113964524</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211346000" />
+    <option name="totallyTimeSpent" value="211468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1973" y="-4" width="1867" height="1084" extended-state="6" />
@@ -925,11 +910,6 @@
     </entry>
     <entry file="file://$USER_HOME$/projects/112ua/frontend/web/img/branding/morosha/morosha-left-lg.jpg" />
     <entry file="file://$USER_HOME$/projects/112ua/frontend/web/img/branding/morosha/morosha-right-lg.jpg" />
-    <entry file="file://$PROJECT_DIR$/app/img/tmp/pos.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/modules/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1008,10 +988,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/tmp/pos.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/modules/_video-section.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="288">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
