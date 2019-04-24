@@ -80,7 +80,7 @@ $(function () {
 
     });
 
-
+   //progress-bar
     video.addEventListener('timeupdate', function () {
         let filledPos = video.currentTime / video.duration;
         filled.style.width = filledPos * 100 + '%';
@@ -90,28 +90,27 @@ $(function () {
         }
     });
 
+
+    //звук и скорость видео
     let rangeDown = true;
 
     range.forEach(range => range.addEventListener('change', rangHandle));
-     range.forEach(range => range.addEventListener('mousemove', rangHandle));
-
-
-    // range.forEach(range => range.addEventListener('mousedown', () => rangeDown = true));
-
+    range.forEach(range => range.addEventListener('mousemove', rangHandle));
+    range.forEach(range => range.addEventListener('mousedown', () => rangeDown = true));
 
     function rangHandle() {
-
-         video[this.name] = this.value;
-
+        video[this.name] = this.value;
     }
 
+
+    //перетягивание ползунка скорости прокрутки
 
     let mousedown = false;
 
     progressBar.addEventListener('click', scrub);
     progressBar.addEventListener('mousemove', (e) => mousedown && scrub(e));
-    progressBar.addEventListener('mousedown', () => mousedown = true);
-    progressBar.addEventListener('mouseup', () => mousedown = false);
+     progressBar.addEventListener('mousedown', () => mousedown = true);
+     progressBar.addEventListener('mouseup', () => mousedown = false);
 
     function scrub(e) {
         const scrubTime = (e.offsetX / progressBar.offsetWidth) * video.duration;
