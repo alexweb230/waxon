@@ -45,4 +45,7 @@
       background-color: #d1d1d1;
     }
   }
+  &.full-size{
+    @include sprite($full-size);
+  }
 }
