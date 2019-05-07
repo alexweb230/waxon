@@ -4,10 +4,12 @@ header
         button.but.btn-mob
         a.logo(href="/")= title
         nav
-            ul
-             for val in ['Home', 'About Us', 'Portfolio', 'Features','Blog','Pricing','Shortcodes','Contact']
-                 li
-                   a(href="#")= val
+            div
+                button.btn-rev 777
+                ul
+                    for val in ['Home', 'About Us', 'Portfolio', 'Features','Blog','Pricing','Shortcodes','Contact']
+                        li
+                            a(href="#")= val
         .buttons-box
             button.but.btn-cart
             button.but.btn-search

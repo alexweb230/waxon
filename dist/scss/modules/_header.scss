@@ -106,6 +106,7 @@ header {
       }
     }
     nav {
+      transition: .25s cubic-bezier(.62, .02, .37, .93);
       ul {
         display: flex;
         li {
@@ -120,6 +121,9 @@ header {
             margin-right: 0;
           }
         }
+      }
+      &.shift{
+        //transform: translateX(0%);
       }
     }
     .buttons-box{

@@ -17,6 +17,10 @@ figure{
 }
 .global-wrap {
   width: 100%;
+  transition: .25s cubic-bezier(.62, .02, .37, .93);
+  &.turn-left{
+    transform: translateX(400px);
+  }
 }
 
 .main-box {

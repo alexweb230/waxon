@@ -50,5 +50,6 @@
   }
   &.btn-mob{
     @include sprite($menu);
+    display: none;
   }
 }

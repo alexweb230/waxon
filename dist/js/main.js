@@ -80,7 +80,7 @@ $(function () {
 
     });
 
-   //progress-bar
+    //progress-bar
     video.addEventListener('timeupdate', function () {
         let filledPos = video.currentTime / video.duration;
         filled.style.width = filledPos * 100 + '%';
@@ -109,14 +109,31 @@ $(function () {
 
     progressBar.addEventListener('click', scrub);
     progressBar.addEventListener('mousemove', (e) => mousedown && scrub(e));
-     progressBar.addEventListener('mousedown', () => mousedown = true);
-     progressBar.addEventListener('mouseup', () => mousedown = false);
+    progressBar.addEventListener('mousedown', () => mousedown = true);
+    progressBar.addEventListener('mouseup', () => mousedown = false);
 
     function scrub(e) {
         const scrubTime = (e.offsetX / progressBar.offsetWidth) * video.duration;
         video.currentTime = scrubTime;
     }
+
+
+//навигация моб
+
+    $('header').on('click', function (e) {
+        let targer = $(e.target);
+        if (targer.is('.btn-mob')) {
+            $('nav').addClass('shift');
+            $('.global-wrap').addClass('turn-left');
+        }
+        if (targer.is('.btn-rev')) {
+            $('nav').removeClass('shift');
+            $('.global-wrap').removeClass('turn-left');
+        }
+    });
+
 });
+
 
 
 
