@@ -4,12 +4,40 @@ header
         button.but.btn-mob
         a.logo(href="/")= title
         nav
-            div
-                button.btn-rev 777
+            div.inner-nav
+                button.but.btn-rev
                 ul
-                    for val in ['Home', 'About Us', 'Portfolio', 'Features','Blog','Pricing','Shortcodes','Contact']
+
                         li
-                            a(href="#")= val
+                            a(href="#").open-sub Home
+                            div.sub-level
+                                ul
+                                    li
+                                        a(href="#") Portfolio sub-level
+                                    li
+                                        a(href="#") Portfolio sub-level
+                                    li
+                                        a(href="#") Portfolio sub-level
+                                    li
+                                        a(href="#") Portfolio sub-level
+                                    li
+                                        a(href="#") Portfolio sub-level
+
+                        li
+                            a(href="#") About Us
+                        li
+                            a(href="#") Portfolio
+                        li
+                            a(href="#") Features
+                        li
+                            a(href="#") Blog
+                        li
+                            a(href="#") Pricing
+                        li
+                            a(href="#") Shortcodes
+                        li
+                            a(href="#") Contact
+
         .buttons-box
             button.but.btn-cart
             button.but.btn-search

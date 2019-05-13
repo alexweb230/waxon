@@ -52,4 +52,12 @@
     @include sprite($menu);
     display: none;
   }
+  &.btn-rev{
+    float:right;
+    @include sprite($close);
+    display: none;
+    position: absolute;
+    top:17px;
+    right: 17px;
+  }
 }

@@ -120,15 +120,21 @@ $(function () {
 
 //навигация моб
 
-    $('header').on('click', function (e) {
+    $('html').on('click', function (e) {
         let targer = $(e.target);
         if (targer.is('.btn-mob')) {
             $('nav').addClass('shift');
             $('.global-wrap').addClass('turn-left');
+            $('body').addClass('noscroll');
         }
-        if (targer.is('.btn-rev')) {
+        else if(targer.is('.btn-rev')) {
             $('nav').removeClass('shift');
             $('.global-wrap').removeClass('turn-left');
+            $('body').removeClass('noscroll');
+        }
+        else if(targer.is('.open-sub')){
+            e.preventDefault();
+            console.log('test');
         }
     });
 
