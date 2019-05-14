@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7f3cc1-721f-4f2e-8223-5688e0301f3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/png/icons/close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/app/img/sprite/sprite.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sprite/sprite.png" afterPath="$PROJECT_DIR$/dist/img/sprite/sprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/sprite/_sprite.scss" afterPath="$PROJECT_DIR$/app/img/sprite/_sprite.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/jade/head.jade" afterPath="$PROJECT_DIR$/app/jade/head.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/jade/header.jade" afterPath="$PROJECT_DIR$/app/jade/header.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/main.js" afterPath="$PROJECT_DIR$/app/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/core/_buttons.scss" afterPath="$PROJECT_DIR$/app/scss/core/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/core/_settings.scss" afterPath="$PROJECT_DIR$/app/scss/core/_settings.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_header.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/responsive/_media-1000.scss" afterPath="$PROJECT_DIR$/app/scss/responsive/_media-1000.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/common.css" afterPath="$PROJECT_DIR$/dist/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/head.html" afterPath="$PROJECT_DIR$/dist/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/header.html" afterPath="$PROJECT_DIR$/dist/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/sprite/_sprite.scss" afterPath="$PROJECT_DIR$/dist/img/sprite/_sprite.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jade/head.jade" afterPath="$PROJECT_DIR$/dist/jade/head.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/jade/header.jade" afterPath="$PROJECT_DIR$/dist/jade/header.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="$PROJECT_DIR$/dist/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/core/_buttons.scss" afterPath="$PROJECT_DIR$/dist/scss/core/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/core/_settings.scss" afterPath="$PROJECT_DIR$/dist/scss/core/_settings.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/modules/_header.scss" afterPath="$PROJECT_DIR$/dist/scss/modules/_header.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +26,8 @@
       <file leaf-file-name="_media-1000.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/responsive/_media-1000.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="360">
+              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -58,8 +46,8 @@
       <file leaf-file-name="header.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/jade/header.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="170">
+              <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -68,8 +56,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="136" column="32" lean-forward="false" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="32" />
+            <state relative-caret-position="342">
+              <caret line="137" column="43" lean-forward="false" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -78,8 +66,8 @@
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/modules/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="107" column="9" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            <state relative-caret-position="540">
+              <caret line="150" column="7" lean-forward="false" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -147,9 +135,9 @@
         <option value="$PROJECT_DIR$/app/img/sprite/_sprite.scss" />
         <option value="$PROJECT_DIR$/app/scss/core/_buttons.scss" />
         <option value="$PROJECT_DIR$/app/jade/head.jade" />
+        <option value="$PROJECT_DIR$/app/scss/core/_settings.scss" />
         <option value="$PROJECT_DIR$/app/scss/responsive/_media-1000.scss" />
         <option value="$PROJECT_DIR$/app/scss/modules/_header.scss" />
-        <option value="$PROJECT_DIR$/app/scss/core/_settings.scss" />
         <option value="$PROJECT_DIR$/app/jade/header.jade" />
         <option value="$PROJECT_DIR$/app/js/main.js" />
       </list>
@@ -294,7 +282,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/112-be" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -366,14 +354,7 @@
       <workItem from="1557206916897" duration="10583000" />
       <workItem from="1557298900073" duration="599000" />
       <workItem from="1557323657320" duration="569000" />
-      <workItem from="1557724356885" duration="5965000" />
-    </task>
-    <task id="LOCAL-00003" summary="tools">
-      <created>1539771473439</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1539771473439</updated>
+      <workItem from="1557724356885" duration="9842000" />
     </task>
     <task id="LOCAL-00004" summary="tools">
       <created>1539773116066</created>
@@ -711,11 +692,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557213763375</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="footer">
+      <created>1557735388363</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1557735388363</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231678000" />
+    <option name="totallyTimeSpent" value="235555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1973" y="-4" width="1867" height="1084" extended-state="6" />
@@ -1000,22 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/responsive/_media-1000.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/modules/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="107" column="9" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/core/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1024,18 +996,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/responsive/_media-1000.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/modules/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="150" column="7" lean-forward="false" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/jade/header.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="170">
+          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="136" column="32" lean-forward="false" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="32" />
+        <state relative-caret-position="342">
+          <caret line="137" column="43" lean-forward="false" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
           <folding />
         </state>
       </provider>

@@ -139,7 +139,15 @@ header {
         }
       }
       &.shift {
-        //transform: translateX(0%);
+        transform: translateX(-200%);
+        overflow: initial;
+        ul{
+          li{
+            .sub-level{
+              display: block;
+            }
+          }
+        }
       }
     }
     .buttons-box {

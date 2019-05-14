@@ -123,18 +123,21 @@ $(function () {
     $('html').on('click', function (e) {
         let targer = $(e.target);
         if (targer.is('.btn-mob')) {
-            $('nav').addClass('shift');
             $('.global-wrap').addClass('turn-left');
             $('body').addClass('noscroll');
         }
         else if(targer.is('.btn-rev')) {
-            $('nav').removeClass('shift');
             $('.global-wrap').removeClass('turn-left');
             $('body').removeClass('noscroll');
         }
         else if(targer.is('.open-sub')){
             e.preventDefault();
-            console.log('test');
+            $('nav').addClass('shift');
+
+        }
+        else if(targer.is('.btn-rev-sub')){
+            $('nav').removeClass('shift');
+
         }
     });
 
