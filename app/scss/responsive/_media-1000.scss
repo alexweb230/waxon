@@ -21,11 +21,16 @@
         background-color: rgba(0, 0, 0, .8);
         z-index: 999;
         max-height: 100%;
+        overflow-y: auto;
         .inner-nav {
           padding-top: 51px;
           padding-left: 20px;
           max-height: 100%;
-          overflow-y: auto;
+          transform: translateX(0%);
+          transition: .25s cubic-bezier(.62, .02, .37, .93);
+          &.shift {
+            transform: translateX(-100%);
+          }
           .btn-rev {
             display: block;
           }

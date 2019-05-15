@@ -132,11 +132,11 @@ $(function () {
         }
         else if(targer.is('.open-sub')){
             e.preventDefault();
-            $('nav').addClass('shift');
+            $('.inner-nav').addClass('shift');
 
         }
         else if(targer.is('.btn-rev-sub')){
-            $('nav').removeClass('shift');
+            $('.inner-nav').removeClass('shift');
 
         }
     });

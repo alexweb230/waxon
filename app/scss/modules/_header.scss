@@ -120,9 +120,10 @@ header {
               top: 0;
               bottom: 0;
               transform: translate(100%);
-              display: none;
               transition: .25s cubic-bezier(.62, .02, .37, .93);
-              &.shift-sub-menu{
+              max-height: 100%;
+              overflow-y: auto;
+              &.shift-sub-menu {
                 transform: translate(0%);
               }
             }
@@ -134,17 +135,6 @@ header {
             }
             &:nth-last-child(1) {
               margin-right: 0;
-            }
-          }
-        }
-      }
-      &.shift {
-        transform: translateX(-200%);
-        overflow: initial;
-        ul{
-          li{
-            .sub-level{
-              display: block;
             }
           }
         }
