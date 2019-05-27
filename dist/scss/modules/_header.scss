@@ -115,6 +115,7 @@ header {
             margin-right: 26px;
             .sub-level {
               position: absolute;
+              display: none;
               left: 0;
               right: 0;
               top: 0;
@@ -123,12 +124,22 @@ header {
               transition: .25s cubic-bezier(.62, .02, .37, .93);
               max-height: 100%;
               overflow-y: auto;
+              padding-left: 20px;
+              padding-right: 20px;
+              .inner-sub-level{
+                padding-bottom: 50px;
+                .btn-rev-sub{
+                  position: relative;
+                  top:17px;
+                }
+              }
               &.shift-sub-menu {
                 transform: translate(0%);
               }
             }
             a {
               color: $w;
+              display: block;
               &:hover {
                 color: #c7b299;
               }

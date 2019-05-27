@@ -23,8 +23,9 @@
         max-height: 100%;
         overflow-y: auto;
         .inner-nav {
-          padding-top: 51px;
+          padding-top: 70px;
           padding-left: 20px;
+          padding-right: 20px;
           max-height: 100%;
           transform: translateX(0%);
           transition: .25s cubic-bezier(.62, .02, .37, .93);
@@ -41,8 +42,23 @@
               margin-bottom: 15px;
               border-bottom: 1px solid black;
               padding-bottom: 17px;
+              .sub-level{
+                display: block;
+              }
               a{
                 font-size: 20px;
+                &.open-sub{
+                  position: relative;
+                  &:after{
+                    content: '';
+                    @include sprite($arr-mob);
+                    position: absolute;
+                    right: 0;
+                    top:0;
+                    transform: rotate(180deg);
+                  }
+
+                }
               }
             }
           }
