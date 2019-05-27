@@ -2,7 +2,16 @@ $(function () {
     $('.main-slider').slick({
         prevArrow: '<button type="button" class="but slick-prev"></button>',
         nextArrow: '<button type="button" class="but slick-next"></button>',
-        dots: true
+        dots: true,
+        adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 1001,
+                settings: {
+                    arrows: false,
+                }
+            },
+        ]
     });
 
     $('.slider-box-posts').slick({
@@ -126,16 +135,16 @@ $(function () {
             $('.global-wrap').addClass('turn-left');
             $('body').addClass('noscroll');
         }
-        else if(targer.is('.btn-rev')) {
+        else if (targer.is('.btn-rev')) {
             $('.global-wrap').removeClass('turn-left');
             $('body').removeClass('noscroll');
         }
-        else if(targer.is('.open-sub')){
+        else if (targer.is('.open-sub')) {
             e.preventDefault();
             $('.inner-nav').addClass('shift');
 
         }
-        else if(targer.is('.btn-rev-sub')){
+        else if (targer.is('.btn-rev-sub')) {
             $('.inner-nav').removeClass('shift');
 
         }

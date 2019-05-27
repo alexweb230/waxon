@@ -68,5 +68,21 @@
         float: right;
       }
     }
+    .middle-header{
+      top:90px;
+      margin-top: initial;
+      h1{
+        font-size: 20px;
+      }
+      h2{
+        font-size: 30px;
+      }
+      .btn-push{
+        margin-top: 30px;
+      }
+    }
+    .main-slider{
+      height: 406px;
+    }
   }
 }
